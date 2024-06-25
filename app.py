@@ -33,5 +33,7 @@ async def chat(request: RequestModel):
 
 
 if __name__ == "__main__":
+    print("я тут")
     initialize()
+
     uvicorn.run(app, host="0.0.0.0", port=8000)

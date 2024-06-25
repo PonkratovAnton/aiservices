@@ -14,7 +14,7 @@ RUN pip install -r requirements.txt
 COPY . .
 
 # Копируем файл .env внутрь контейнера
-COPY .env
+COPY .env .env
 
 # Открываем порт, на котором будет работать приложение
 EXPOSE 8000
